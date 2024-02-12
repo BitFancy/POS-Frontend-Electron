@@ -1,0 +1,164 @@
+.account-page .customizer-links { 
+  box-shadow: 0px 4px 18px rgb(77 76 76 / 25%);
+}
+.customizer-links {
+    @include position($__fixed,50%,0,null,null);
+    @include transform(translateY(-50%));
+    background: $__orangecolor;
+    border-radius: 5px 0px 0px 5px;
+    z-index: 3;
+    width: 47px;
+    min-height: 170px;
+    @extend %display-flex;
+    @extend %justify-content-center;
+    @extend %flex-wrap;
+    @include transition(all 0.3s ease);
+    ul {
+        width: $__full__width;
+        li {
+            @include margin-padding(10px 5px 0, 0 0 10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            &:last-child { 
+                border-bottom: 0;
+            }
+            a {
+                @include margin-padding(null, 10px 10px);
+                text-align: $__center;
+                @extend %flex-align-center;
+                border-radius: 5px;
+                &:hover {
+                    background: $__violets;
+                }
+                img {
+                    height: 18px;
+                }
+            }
+        }
+    }
+}
+.sidebar-settings {
+    width: 450px;
+    background-color: $__white;
+    @include position($__fixed,0,-450px,null,null);
+    height: 100vh;
+    background-color: rgb(0,0,0,0.2);
+    z-index: 9999;
+    overflow-x: $__hidden;
+    -ms-overflow-style: $__none;
+    scrollbar-width: $__none;
+    overflow-y: scroll;
+    @include transition(ease all 0.8s);
+    &.show-settings {
+        right: 0;
+        @include transition(ease all 0.8s);
+        -ms-overflow-style: $__none;
+        scrollbar-width: $__none;
+        overflow-y: scroll;
+        width: $__full__width;
+    }
+}
+.sidebar-content {
+    max-width: 450px;
+    width: 100%;
+    @include position($__absolute,0,0,null,null);
+    background: $__white;
+    height: 100vh;
+    overflow-x: $__hidden;
+    .sidebar-header {
+        @extend %display-flex;
+        @extend %align-items-center;
+        @extend %justify-content-between;
+        @include margin-padding(null, 20px);
+        border: 1px solid $__grey;
+        h5 {
+            font-size: $__font__size__18;
+            color: $__black;
+            font-weight: $__bold;
+            margin-bottom: 0;      
+            text-transform: $__uppercase;      
+            @include respond-below(custom991) {
+                font-size: $__font__size__18;
+            }
+        }
+        a {
+            font-size: $__font__size__24;
+            img {
+                width: 15px;
+            }
+        }
+    }
+    .sidebar-body {
+        @include margin-padding(null, 20px);
+        .theme-title {
+            font-size: $__font__size__18;
+            font-weight: $__bold;
+            color: $__mute_color;
+            margin-bottom: 10px;
+        }
+    }
+}
+.switch-wrapper {
+    border-bottom: 1px solid $__grey;
+    @include margin-padding(0 0 20px, 0 0 20px);
+    #dark-mode-toggle {
+        @extend %inline-flex;
+        @extend %align-items-center;
+        .light-mode {
+            border-radius: 5px 0 0 5px;
+        }
+        .dark-mode {
+            border-radius: 0 5px 5px 0;
+        }
+        .light-mode, .dark-mode {
+            background: $__grey;
+            font-size: $__font__size__16;
+            color: $__black;
+            @extend %inline-flex;
+            @extend %align-items-center;
+            @include margin-padding(null, 11px 18px);
+            cursor: $__pointer;
+            img {
+                filter: brightness(0) saturate(100%)
+            }
+            &.active {
+                background: $__orangecolor;
+                color: $__white;
+                img {
+                    filter:  brightness(0) invert(1);
+                }
+            }
+        }
+    }
+}
+
+.layout-wrap {
+    margin-bottom: 20px;
+    .status-toggle {
+        .checktoggle {
+            background: $__black;
+            width: 25px;
+            height: 15px;
+            :after {
+                width: 12px;
+                height: 12px;
+                right: 4px;
+            }
+        }  
+    } 
+    .layout-img {
+        img {
+            max-width: 120px;
+        }
+    }         
+    .status-text {
+        font-size: $__font__size__16;
+        color: $__black;
+    }
+}
+.layout-link {
+    position: $__relative;
+    z-index: 9;
+    width: $__full__width;
+    height: 100%;
+    display: $__inline__block;
+}

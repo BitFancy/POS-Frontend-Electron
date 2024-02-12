@@ -1,0 +1,373 @@
+{
+  "en": {
+    "translation": {
+      "app_name": "Restaurant POS",
+      "restaurant": "Restaurant",
+      "restaurant_receipt": "Restaurant Receipt",
+      "customer": "Customer",
+      "paymethod": "Pay Method",
+      "date": "Date",
+      "list_of_items": "List of Items",
+      "quantity": "Quantity",
+      "amount": "Amount",
+      "total_price": "Total Price",
+      "distance": "Distance",
+      "thanks": "THANK YOU FOR DINING WITH US!",
+      "please_come_again": "Please Come Again",
+      "print": "Print",
+      "english": "English",
+      "chinese": "中文",
+      "profile": "My Profile",
+      "settings": "Settings",
+      "logout": "Logout",
+      "search": "Search",
+      "items": "items",
+      "to": "to",
+      "of": "of",
+      "price": "Price",
+      "action": "Action",
+      "page": "page",
+      "created_at": "Created At",
+      "email": "Email",
+      "role": "Role",
+      "phone": "Phone",
+      "city": "City",
+      "house_number": "House Number",
+      "street_name": "Street Name",
+      "postcode": "Postcode",
+      "restaurant_name": "Restaurant Name",
+      "address": "Address",
+      "save": "Save",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "clear_all": "Clear All",
+      "cash": "Cash",
+      "debit": "Debit",
+      "scan": "Scan",
+      "new": "New",
+      "addon": "AddOn",
+      "minus": "Minus",
+      "close": "Close",
+      "setting": {
+        "title": "Setting",
+        "description": "Manage General Setting",
+        "restaurant_logo": "Restaurant Logo",
+        "logo_drag": "Drag and drop a file to upload"
+      },
+      "pos": {
+        "product_menu": "Product Menu",
+        "dish": "Dish",
+        "order_list": "Order List",
+        "addon": "AddOn",
+        "minus": "Minus",
+        "go_order_list": "Go Order List",
+        "order_type": "Order Type",
+        "select_order_type": "Select Order Type",
+        "customer": "Customer",
+        "select_customer": "Select Customer",
+        "total_items": "Total items",
+        "total": "Total",
+        "checkout": "Checkout"
+      },
+      "order_type": {
+        "dine-in": "Dine-In",
+        "takeout": "TakeOut",
+        "delivery": "Delivery"
+      },
+      "sidebar": {
+        "order_management": "Order Management",
+        "make_order": "Make Order",
+        "order_lists": "Order Lists",
+        "menu_management": "Menu Management",
+        "products": "Products",
+        "categories": "Categories",
+        "admin_panel": "Admin Panel",
+        "manage_users": "Manage Users",
+        "users": "Users",
+        "customers": "Customers",
+        "general_settings": "General Settings"
+      },
+      "orders": {
+        "title": "Order List",
+        "description": "Manage Orders",
+        "make_order": "Make Order",
+        "table": {
+          "customer_name": "Customer Name",
+          "order_type": "Order Type",
+          "payment_method": "Payment Method"
+        }
+      },
+      "products": {
+        "title": "Products",
+        "description": "Manage your Products",
+        "add_button": "Add New Product",
+        "delete": "Delete Product",
+        "table": {
+          "product_name": "Product Name",
+          "category": "Category",
+          "product_type": "Product type"
+        }
+      },
+      "add_product": {
+        "title": "Add Product",
+        "description": "Create new product",
+        "product_name": "Product Name",
+        "category": "Category",
+        "choose_category": "Choose Category",
+        "product_type": "Product type",
+        "choose_product_type": "Choose Product Type",
+        "price": "Price"
+      },
+      "product_type": {
+        "main_product": "Main Product",
+        "sub_product_one": "Sub Product 1",
+        "sub_product_two": "Sub Product 2",
+        "sub_product_three": "Sub Product 3",
+        "addon": "Addon",
+        "minus": "Minus"
+      },
+      "categories": {
+        "title": "Categories",
+        "description": "Manage your Categories",
+        "add_button": "Add New Category",
+        "delete": "Delete Category",
+        "table": {
+          "category_name": "Category Name",
+          "category": "Category",
+          "category_type": "Category type"
+        }
+      },
+      "add_category": {
+        "title": "Add Category",
+        "description": "Create new Category",
+        "category_name": "Categpry Name"
+      },
+      "users": {
+        "title": "User List",
+        "description": "Manage User",
+        "add_button": "New User",
+        "table": {
+          "user_name": "User Name"
+        }
+      },
+      "add_user": {
+        "title": "Add new User",
+        "description": "Manage user",
+        "user_name": "User Name",
+        "password": "Password",
+        "confirm_password": "Confirm Password"
+      },
+      "customers": {
+        "title": "Customer List",
+        "description": "Manage Customer",
+        "add_button": "Add Customer",
+        "table": {
+          "customer_name": "Customer Name"
+        }
+      },
+      "add_customer": {
+        "title": "Add new Customer",
+        "description": "Manage Customer",
+        "customer_name": "Customer Name",
+        "input_postcode": "Input PostCode"
+      },
+      "direction": {
+        "direction": "Direction",
+        "north": "North",
+        "north_east": "North-East",
+        "east": "East",
+        "south-east": "South-East",
+        "south": "South",
+        "south_west": "South-West",
+        "west": "West",
+        "north_west": "North-West"
+      }
+    }
+  },
+  "cn": {
+    "translation": {
+      "app_name": "餐厅POS",
+      "restaurant": "餐厅",
+      "restaurant_receipt": "餐厅收据",
+      "customer": "客户",
+      "paymethod": "支付方式",
+      "date": "日期",
+      "list_of_items": "项目列表",
+      "quantity": "数量",
+      "amount": "金额",
+      "total_price": "总价",
+      "distance": "距离",
+      "thanks": "感谢您与我们一起用餐",
+      "please_come_again": "请再来一次",
+      "print": "打印",
+      "english": "English",
+      "chinese": "中文",
+      "search": "搜索",
+      "profile": "轮廓",
+      "settings": "设置",
+      "logout": "注销",
+      "items": "项目",
+      "to": "到",
+      "of": "的",
+      "price": "价格",
+      "action": "行动",
+      "page": "页",
+      "created_at": "创建于",
+      "role": "角色",
+      "email": "电子邮件",
+      "phone": "电话",
+      "city": "城市",
+      "house_number": "门牌号码",
+      "street_name": "街道名称",
+      "postcode": "邮政编码",
+      "restaurant_name": "餐厅名称",
+      "address": "地址",
+      "save": "节省",
+      "cancel": "取消",
+      "submit": "提交",
+      "clear_all": "全部清除",
+      "cash": "现金",
+      "debit": "借方",
+      "scan": "扫描",
+      "new": "新",
+      "addon": "附加",
+      "minus": "减",
+      "close": "关闭",
+      "setting": {
+        "title": "环境",
+        "description": "管理常规设置",
+        "restaurant_logo": "餐厅标志",
+        "logo_drag": "拖放要上传的文件"
+      },
+      "pos": {
+        "product_menu": "产品菜单",
+        "dish": "盘子",
+        "order_list": "订单",
+        "addon": "添加在",
+        "minus": "减",
+        "go_order_list": "转到订单列表",
+        "order_type": "订单类型",
+        "select_order_type": "选择订单类型",
+        "customer": "顾客",
+        "select_customer": "选择客户",
+        "total_items": "总项目",
+        "total": "全部",
+        "checkout": "查看"
+      },
+      "order_type": {
+        "dine-in": "堂食",
+        "takeout": "外卖",
+        "delivery": "交货"
+      },
+      "sidebar": {
+        "order_management": "订单管理",
+        "make_order": "下订单",
+        "order_lists": "订单列表",
+        "menu_management": "菜单管理",
+        "products": "产品",
+        "categories": "类别",
+        "admin_panel": "管理面板",
+        "manage_users": "管理用户",
+        "users": "用户",
+        "customers": "客户",
+        "general_settings": "常规设置"
+      },
+      "orders": {
+        "title": "订单",
+        "description": "管理订单",
+        "make_order": "下单",
+        "table": {
+          "customer_name": "顾客姓名",
+          "order_type": "订单类型",
+          "payment_method": "付款方式"
+        }
+      },
+      "products": {
+        "title": "产品",
+        "description": "管理您的产品",
+        "search": "搜索",
+        "add_button": "添加新产品",
+        "delete": "删除产品",
+        "table": {
+          "product_name": "产品名称",
+          "category": "类别",
+          "product_type": "产品类别"
+        }
+      },
+      "add_product": {
+        "title": "添加产品",
+        "description": "创造新产品",
+        "product_name": "产品名称",
+        "category": "类别",
+        "choose_category": "选择类别",
+        "product_type": "产品类别",
+        "choose_product_type": "选择产品类型",
+        "price": "价格"
+      },
+      "product_type": {
+        "main_product": "主要产品",
+        "sub_product_one": "子产品 1",
+        "sub_product_two": "子产品 2",
+        "sub_product_three": "子产品 3",
+        "addon": "插件",
+        "minus": "减"
+      },
+      "categories": {
+        "title": "类别",
+        "description": "管理您的类别",
+        "add_button": "添加新类别",
+        "delete": "删除类别",
+        "table": {
+          "category_name": "分类名称",
+          "category": "类别",
+          "category_type": "类别类型"
+        }
+      },
+      "add_category": {
+        "title": "添加类别",
+        "description": "创建新类别",
+        "category_name": "分类名称"
+      },
+      "users": {
+        "title": "用户列表",
+        "description": "管理用户",
+        "add_button": "新用户",
+        "table": {
+          "user_name": "用户名"
+        }
+      },
+      "add_user": {
+        "title": "添加新用户",
+        "description": "管理用户",
+        "user_name": "用户名",
+        "password": "密码",
+        "confirm_password": "确认密码"
+      },
+      "customers": {
+        "title": "客户名单",
+        "description": "管理客户",
+        "add_button": "添加客户",
+        "table": {
+          "customer_name": "顾客姓名"
+        }
+      },
+      "add_customer": {
+        "title": "添加新客户",
+        "description": "管理客户",
+        "customer_name": "客户名称",
+        "input_postcode": "输入邮政编码"
+      },
+      "direction": {
+        "direction": "方向",
+        "north": "北",
+        "north_east": "东北",
+        "east": "东",
+        "south-east": "东南",
+        "south": "南",
+        "south_west": "西南",
+        "west": "西",
+        "north_west": "西北"
+      }
+    }
+  }
+}

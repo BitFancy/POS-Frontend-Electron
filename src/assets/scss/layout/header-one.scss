@@ -1,0 +1,130 @@
+.page-wrapper-one {
+    margin-left: 0px;
+    padding-top: 130px;
+}
+.header-one {
+    .header-left {
+        border-right: 0 !important;
+        @include margin-padding(null, 25px);
+    }
+}
+.logo-white {
+    display: $__none !important;
+}
+.sidebar.new-header {
+    position: $__fixed;
+    width: $__full__width;
+    height: 68px;
+    background: $__white;
+    border-top: 1px solid $__grey;
+    box-shadow: 0px 4px 14px rgba(198, 198, 198, 0.25);    
+    z-index: 9;
+    .sidebar-menu {
+        @include margin-padding(null, 0 15px);
+        & > ul  {
+           & > li {
+                margin-bottom: 0;
+                margin-right: 20px;
+                & > a {
+                    @include margin-padding(null, 22px 15px);
+                    &:hover {
+                        background: $__transparent;
+                        span {
+                            color:$__primarycolor;
+                        }
+                        img, svg {
+                            filter: brightness(0) saturate(100%) invert(75%) sepia(10%) saturate(5676%) hue-rotate(326deg) brightness(105%) contrast(112%);
+                        }
+                    }
+                    img {
+                        top: 0 !important;
+                        width: $__auto;
+                    }
+                }
+                a {
+                    font-weight: $__medium;
+                    font-size: $__font__size__15;
+                    color: $__sandstone;
+                    img {
+                        position: $__relative;
+                        top: 3px;
+                        width: 18px;
+                        margin-right: 7px;
+                    }
+                    svg {
+                        width: 18px;
+                        margin-right: 7px;
+                    }
+                }
+                .menu-arrow {
+                    position: initial;
+                    transform: rotate(90deg);
+                    margin-left: 15px;
+                }
+                ul {
+                    position: $__absolute;
+                    width: 250px;
+                    height: auto;
+                    li {
+                        &.submenu {
+                            a {
+                                padding: 8px 15px !important;
+                                .menu-arrow {
+                                    float: $__right;
+                                    margin-right: 15px;
+                                }
+                                i {
+                                    margin-right: 7px;
+                                }
+                                img {
+                                    position: $__relative;
+                                    top: 3px;
+                                    width: 18px;
+                                    margin-right: 7px;
+                                }
+                                svg {
+                                    width: 18px;
+                                    margin-right: 7px;
+                                }
+                            }
+                            & ul {
+                                box-shadow: 0px 4px 14px rgb(198 198 198 / 25%);
+                            }
+                            ul {
+                                position: $__relative;    
+                                @include margin-padding(null, 0); 
+                                li {
+                                    a {
+                                        padding: 8px 10px 8px 40px !important;
+                                    }
+                                }                           
+                            }
+                        }
+                        a {
+                            padding: 8px 15px !important;
+                            &::after {
+                                content: $__none !important;
+                            }
+                        }
+                    }
+                }                                
+                @include respond-below(custom1199) {
+                   margin-right: 0;
+                }
+            }
+        }
+    }
+}
+@include respond-above(custom992) {
+    .hide-sidebar {
+        display: $__none;
+    }
+}
+@include respond-below(custom991) {
+    .new-header {
+        display: $__none;
+    }
+    .page-wrapper-one {
+        padding-top: 60px;
+    }
+}

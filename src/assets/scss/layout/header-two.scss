@@ -1,0 +1,87 @@
+.header-two {
+    .header-left {
+        border: 0 !important;        
+        @include margin-padding(null, 0 10px);
+    }
+    .top-nav-search {
+        float: $__left;
+        margin-left: 10px;
+        .btn {
+            left: 0;
+            right: $__auto !important;
+        }
+        .searchinputs {
+            input {
+                z-index: 1;
+            }
+        }
+    }
+}
+.sidebar {
+    &.sidebar-two {
+        left: $__auto;
+        top: 90px;
+        border: 0 !important;
+        .sidebar-menu {
+            & > ul {
+                & > li {
+                    a {  
+                    }
+                    &.submenu {
+                        ul {
+                            li {
+                                a {                      
+                                    display: $__flex !important;
+                                    @extend %align-items-center;
+                                    img {
+                                        width: 18px;
+                                    }
+                                    span {
+                                        margin-left: 10px;
+                                    }
+                                    &::after {
+                                        content: none;
+                                    }
+                                    .menu-arrow {
+                                        top: 10px;
+                                    }
+                                }
+                                ul {
+                                    li {
+                                        a {
+                                            padding: 8px 8px 8px 64px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .menu-arrow {
+                position: absolute;
+                top: 12px;
+                right: 15px
+            }
+        }
+    }
+}
+.page-wrapper-two {
+    .dash-widget {
+        .dash-widgetcontent {
+            margin-left: 10px;
+        }
+    }
+}
+
+@include respond-below(custom991) {
+    .sidebar.sidebar-two {
+        left: 0;
+        top: 60px;
+    }
+}
+.header-block {
+    @include respond-below(custom991) {
+        display: block !important;
+    }
+}
