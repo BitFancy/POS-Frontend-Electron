@@ -7,7 +7,7 @@
   "main": "public/electron.js",
   "build": {
     "appId": "com.electron.myapp",
-    "productName": "My Electron App",
+    "productName": "YGO",
     "files": [
       "build/**/*"
     ],

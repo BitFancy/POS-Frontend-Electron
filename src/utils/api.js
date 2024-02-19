@@ -3,8 +3,8 @@ import axios from 'axios';
 // Create an instance of axios
 
 export const api = axios.create({
-  // baseURL: 'https://restaurant-pos-service.onrender.com/api',
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://restaurant-pos-service.onrender.com/api',
+  // baseURL: 'http://localhost:5000/api',
   headers: {
     'Content-Type': 'application/json',
     // 'x-auth-token': localStorage.getItem('token'),

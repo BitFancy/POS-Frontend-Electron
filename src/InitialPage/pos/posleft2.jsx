@@ -213,7 +213,7 @@ const Posleft2 = (props) => {
           <h4>{t('pos.product_menu')}</h4>
         </div>
       </div>
-      <div className="card card-order" style={{ height: '800px' }}>
+      <div className="card card-order">
         <div className="split-card"></div>
         <div className="row">
           <div className="col-3 border-end">

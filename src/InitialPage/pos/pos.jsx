@@ -498,46 +498,6 @@ const Pos = () => {
                         />
                       </div>
                     </div>
-                    {/* <div className="d-flex align-items-center">
-                      <div className="w-25">Customer:</div>
-                      <div className="w-70 d-flex justify-content-between">
-                        <div className="select-group">
-                          <Select2
-                            className="select"
-                            data={customers}
-                            options={{
-                              placeholder: 'Select Customer',
-                            }}
-                            onChange={(e) => setCustomer(e.target.value)}
-                            value={customer}
-                          />
-                        </div>
-                        <div>
-                          <Link
-                            className="btn"
-                            data-bs-toggle="modal"
-                            data-bs-target="#create"
-                            style={{
-                              color: '#28c76f',
-                              border: '2px solid #28c76f',
-                            }}
-                            onMouseEnter={() => {
-                              this.setState({
-                                color: '#fff',
-                              });
-                            }}
-                            onMouseLeave={() => {
-                              this.setState({
-                                color: '#28c76f',
-                              });
-                            }}
-                          >
-                            <i className="fa fa-plus me-2" />
-                            New
-                          </Link>
-                        </div>
-                      </div>
-                    </div> */}
                     <div className="d-flex align-items-center">
                       <div className="w-25">{t('pos.customer')}:</div>
                       <div className="w-75 d-flex justify-content-between">
@@ -564,7 +524,7 @@ const Pos = () => {
                             color: '#28c76f',
                             border: '2px solid #28c76f',
                             minWidth: '25%',
-                            minHight: '',
+                            minHight: '80%',
                           }}
                         >
                           <i className="fa fa-plus me-2" />

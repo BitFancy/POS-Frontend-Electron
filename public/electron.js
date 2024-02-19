@@ -1,4 +1,4 @@
-console.log(__dirname);
+// console.log(__dirname);
 // Module to control the application lifecycle and the native browser window.
 const {
   app,
@@ -14,6 +14,9 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     width: electronScreen.getPrimaryDisplay().workArea.width,
     height: electronScreen.getPrimaryDisplay().workArea.height,
+    autoHideMenuBar: true,
+    skipTaskbar: true,
+    icon: __dirname + '/icon.jfif',
     // Set the path of an additional "preload" script that can be used to
     // communicate between node-land and browser-land.
   });

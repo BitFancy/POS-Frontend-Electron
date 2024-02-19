@@ -52,7 +52,6 @@ const SignInPage = (props) => {
       email: email,
       password: password,
     };
-    
 
     try {
       setIsLoading(true);
@@ -81,7 +80,7 @@ const SignInPage = (props) => {
     <>
       <div className="main-wrapper">
         <Helmet>
-          <title>SignIn - Restaurant POS</title>
+          <title>POS</title>
           <meta name="description" content="SignIn page" />
         </Helmet>
         <div className="account-content">
